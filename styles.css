@@ -215,8 +215,23 @@ a:hover{ text-decoration:underline; }
   color:var(--muted);
 }
 
+.hero-tagline{
+  display:inline-block;
+  margin:20px 0 0;
+  padding:7px 18px;
+  border-radius:999px;
+  font-size:15px;
+  font-weight:600;
+  letter-spacing:.05em;
+  color:var(--link);
+  background:rgba(109,91,245,.12);
+  background:color-mix(in srgb, var(--brand) 12%, transparent);
+  border:1px solid rgba(109,91,245,.32);
+  border:1px solid color-mix(in srgb, var(--brand) 32%, transparent);
+}
+
 .hero-desc{
-  margin:26px 0 0;
+  margin:20px 0 0;
   max-width:38em;
   font-size:17px;
   color:var(--text-soft);
