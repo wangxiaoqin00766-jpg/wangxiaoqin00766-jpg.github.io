@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="水豚头像">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EE"/>
+      <stop offset="0.55" stop-color="#FFEEDC"/>
+      <stop offset="1" stop-color="#FFDCC0"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DBB48C"/>
+      <stop offset="1" stop-color="#B98A5F"/>
+    </linearGradient>
+    <linearGradient id="furEar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C89A6F"/>
+      <stop offset="1" stop-color="#A87C51"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 圆形底 -->
+  <circle cx="120" cy="120" r="120" fill="url(#bg)"/>
+
+  <!-- 耳朵（先画，会被头部盖住一部分，形成前后关系） -->
+  <ellipse cx="64" cy="66" rx="19" ry="17" fill="url(#furEar)" transform="rotate(-20 64 66)"/>
+  <ellipse cx="176" cy="66" rx="19" ry="17" fill="url(#furEar)" transform="rotate(20 176 66)"/>
+  <ellipse cx="64" cy="68" rx="9.5" ry="8" fill="#E7B98F" opacity="0.85" transform="rotate(-20 64 68)"/>
+  <ellipse cx="176" cy="68" rx="9.5" ry="8" fill="#E7B98F" opacity="0.85" transform="rotate(20 176 68)"/>
+
+  <!-- 头 -->
+  <ellipse cx="120" cy="128" rx="78" ry="70" fill="url(#fur)"/>
+
+  <!-- 口鼻 -->
+  <ellipse cx="120" cy="164" rx="40" ry="28" fill="#EBCFB2"/>
+  <ellipse cx="107" cy="152" rx="6.5" ry="7.5" fill="#6E4B33"/>
+  <ellipse cx="133" cy="152" rx="6.5" ry="7.5" fill="#6E4B33"/>
+  <path d="M106 170 q7 8 14 1 q7 7 14 -1" fill="none" stroke="#6E4B33"
+        stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- 眼睛 -->
+  <ellipse cx="94" cy="114" rx="9.5" ry="10.5" fill="#46302A"/>
+  <ellipse cx="146" cy="114" rx="9.5" ry="10.5" fill="#46302A"/>
+  <circle cx="97" cy="110" r="3.2" fill="#FFFFFF"/>
+  <circle cx="149" cy="110" r="3.2" fill="#FFFFFF"/>
+
+  <!-- 睫毛：让「妹」的角色感更明显 -->
+  <path d="M84 106 l-6 -5" stroke="#46302A" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M156 106 l6 -5" stroke="#46302A" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- 腮红 -->
+  <ellipse cx="72" cy="148" rx="15" ry="10" fill="#F2A6A6" opacity="0.45"/>
+  <ellipse cx="168" cy="148" rx="15" ry="10" fill="#F2A6A6" opacity="0.45"/>
+
+  <!-- 左耳上的蝴蝶结 -->
+  <ellipse cx="38" cy="60" rx="12.5" ry="9.5" fill="#EE6A9A" transform="rotate(-22 38 60)"/>
+  <ellipse cx="62" cy="60" rx="12.5" ry="9.5" fill="#EE6A9A" transform="rotate(22 62 60)"/>
+  <circle cx="50" cy="60" r="6.5" fill="#D94F82"/>
+</svg>
